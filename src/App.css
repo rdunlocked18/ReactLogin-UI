@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+label{
+  color: black;
+}
+body{
+  background: linear-gradient(to left, #fdc830, #f37335);
+   background-image: url("./images/logo.svg");  
+  background-size: cover;
+  background-position: center center;
+  background-repeat:no-repeat;   
+ 
+  /* mask-image: url("./images/logo.svg"); */
+
+}
+
+.App{
+  
+}
+.gradbar{
+  background-image: linear-gradient(to right,rgba(253, 200, 48, 0.35), rgba(243, 115, 53, 0.35));
+  height: 350px;
+  width: 1200px;
+  margin-top:15%;
+  
+}
+.mainContainer {
+
+}
+.desc{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-top: -15px;
+  color: #595959;
+}
+.cnnct{
+  font-family: 'Lobster', cursive;
+  font-size: 32px;
+  color: #595959;
+
+}
+.fpass{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin-top: 20px; 
+  margin-bottom: 10px; 
+  color: #969696;
+  padding-bottom: 20px;
+}
+
+.mainCard{
+width: 450px;
+height: 530px;
+background-color: white; 
+margin-left: 60%;
+padding: 20px;
+padding-top: -20px; 
+padding-right: 35px; 
+margin-top: -23%; 
+
+}
+.loginField{
+
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.passField{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.login-btn{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  width: 30%;
+  height: 50px;
+  margin-top:20px; 
+  margin-bottom:20px; 
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+img{
+  margin-top: 50px; 
+  margin-left: 20px; 
+  width: 400px;
+  height: 100px;
+}
+.singup-btn{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+.super-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: #000;
+  margin: 20px;
+  margin-top: 30px;
+  text-align: left;
+margin-bottom: -30px;
+}
+
+
+
+
+
